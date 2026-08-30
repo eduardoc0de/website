@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eduardo's Website!</title>
+    <link href="https://fonts.cdnfonts.com/css/tex-gyre-heros" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
+
+    <style>
+
+       body,
+       .window-body {
+            font-family: 'TeXGyreHeros', Helvetica, Arial, sans-serif !important;
+        }
+
+        body {
+            background-image: url('./background.jpg');
+            font-family: 'TeXGyreHeros', Helvetica, Arial, sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .window {
+            width: 800px;
+            margin-top: 50px;
+        }
+
+        .window-body {
+            min-height: 600px;
+
+            background-image: url('./contentback.png');
+            background-size: 650px;
+            background-repeat: repeat;
+
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="window active">
+
+    <div class="title-bar">
+        <div class="title-bar-text">
+            Eduardo's Website
+        </div>
+
+        <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+        </div>
+    </div>
+
+    <div class="window-body">
+     <h1 style="color: white; font-size: xx-large; font-weight: normal; text-align: center;">Welcome to my Website!</h1>
+     <p style="text-align: center; margin: 0 20px 20px 20px; color: white; font-size: larger;">Hello! My name is Eduardo, I am a young developer from Guatemala, and I like to work on miscellaneous projects on my free time, this is my website!</p>
+     <div>
+     <br>
+     <center>
+     <img src="./me polaroid.png" style="margin-right: 15px; width: 180px; height: 310px; margin: 0 30px 20px 20px; transform: rotate(-5deg); box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);">
+     <img src="./me polaroid2.png" style="margin-right: 15px; width: 180px; height: 310px; margin: 0 30px 20px 20px; transform: rotate(-5deg); box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);">
+     <img src="./me polaroid3.png" style="margin-right: 15px; width: 180px; height: 310px; margin: 0 30px 20px 20px; transform: rotate(-5deg); box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);">
+     </center>
+     </div>
+     <br>
+     <a href="https://github.com/eduardoc0de">
+     <button style="float: right;">My Projects</button>
+     </a>
+    </div>
+    </div>
+  </body>
+</html>
